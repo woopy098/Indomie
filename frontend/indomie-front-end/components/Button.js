@@ -11,15 +11,17 @@ const buttonConfig = {
   },
 };
 
-const Button = ({ text, type = "primary", func = {} }) => {
-  return (
+const Button = ({ text, type = "primary", link = false, href }) => {
+  let button = link ? (
+    <a href={href}>{text}</a>
+  ) : (
     <button
-      className={`w-24 text-base ${buttonConfig[type].bgColor} ${buttonConfig[type].color} border-blue border-2  rounded-large px-3 py-0.25 `}
-      onClick={() => func}
+      className={`max-w-max text-base ${buttonConfig[type].bgColor} ${buttonConfig[type].color} border-blue border-2  rounded-large px-3 py-0.25 `}
     >
       {text}
     </button>
   );
+  return button;
 };
 
 export default Button;

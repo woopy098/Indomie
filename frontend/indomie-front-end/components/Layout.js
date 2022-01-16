@@ -3,7 +3,7 @@ import Navigation from "./Navigation";
 
 const Layout = ({ children }) => {
   return (
-    <div className="h-screen">
+    <div className="min-h-screen">
       <Navigation />
       {children}
     </div>

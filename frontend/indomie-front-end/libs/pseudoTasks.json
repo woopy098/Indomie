@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Do the Front-end",
+    "description": "Front end stuff, you know",
+    "date": "2022-01-15T12:37:00-08:00",
+    "color": "fuschia"
+  },
+  {
+    "id": 2,
+    "name": "Walk the dog",
+    "description": "The dog really needs a walk",
+    "date": "2022-01-16T16:06:00-08:00",
+    "color": "blue"
+  },
+  {
+    "id": 3,
+    "name": "Do the laundry",
+    "description": "Bright clothes mean bright future",
+    "date": "2022-01-15T13:37:00-08:00",
+    "color": "gold"
+  },
+  {
+    "id": 4,
+    "name": "Finish homework",
+    "description": "Calculus, calculus, calculus!",
+    "date": "2022-01-16T14:37:00-08:00",
+    "color": "green"
+  },
+  {
+    "id": 1,
+    "name": "Do the Front-end",
+    "description": "Front end stuff, you know",
+    "date": "2022-01-15T12:37:00-08:00",
+    "color": "fuschia"
+  },
+  {
+    "id": 2,
+    "name": "Walk the dog",
+    "description": "The dog really needs a walk",
+    "date": "2022-01-16T16:06:00-08:00",
+    "color": "blue"
+  },
+  {
+    "id": 3,
+    "name": "Do the laundry",
+    "description": "Bright clothes mean bright future",
+    "date": "2022-01-15T13:37:00-08:00",
+    "color": "gold"
+  },
+  {
+    "id": 4,
+    "name": "Finish homework",
+    "description": "Calculus, calculus, calculus!",
+    "date": "2022-01-16T14:37:00-08:00",
+    "color": "green"
+  }
+]
