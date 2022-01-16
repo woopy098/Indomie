@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="h-4/5 flex flex-col justify-center items-center">
+    <div className="h-screen flex flex-col justify-center items-center">
       <Head>
         <title>Indomie To Do</title>
         <meta
@@ -12,7 +12,7 @@ export default function Home() {
         />
       </Head>
 
-      <main className="h-full w-full flex flex-row justify-between items-center px-16">
+      <main className="h-2/5 w-full flex flex-row justify-between items-center px-16">
         <div className="w-2/5">
           <h1 className="font-sans text-4xl antialiased font-bold	">
             Schedule your works like never before!
@@ -25,6 +25,7 @@ export default function Home() {
             layout="fill"
             objectFit="contain"
             objectPosition={"right"}
+            priority
           />
         </div>
       </main>

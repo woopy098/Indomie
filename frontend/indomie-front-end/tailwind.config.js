@@ -40,6 +40,7 @@ module.exports = {
       lg: "1rem",
       full: "9999px",
       large: "16px",
+      xl: "24px",
     },
   },
   plugins: [],
