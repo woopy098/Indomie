@@ -8,6 +8,30 @@ const Layout = ({ children }) => {
         <label>Sign Up:</label>
         <form classname='form'>
             <div classname='form-control'>
+                <label htmlfor='fname'>First Name: <br /></label>
+                <input 
+                style={{width: 300 , borderColor: 'black' , borderWidth: 1 , borderRadius: 25 , marginBottom: 25}}
+                type='text' 
+                placeholder="Enter Your First Name..."
+                id='fname' 
+                name='fname'
+                align='right'
+                />
+            </div>
+            
+            <div classname='form-control'>
+                <label htmlfor='lname'>Last Name: <br /></label>
+                <input 
+                style={{width: 300 , borderColor: 'black' , borderWidth: 1 , borderRadius: 25 , marginBottom: 25}}
+                type='text' 
+                placeholder="Enter Your Last Name..."
+                id='lname' 
+                name='lname'
+                align='right'
+                />
+            </div>
+
+            <div classname='form-control'>
                 <label htmlfor='email'>Email: <br /></label>
                 <input 
                 style={{width: 300 , borderColor: 'black' , borderWidth: 1 , borderRadius: 25 , marginBottom: 25}}
