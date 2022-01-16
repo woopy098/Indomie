@@ -6,5 +6,5 @@ Tech stacks: heroku (hosting), Django - Python (backend), Next JS (frontend), Fi
 
 UI: Duc
 Frontend: Duc, Brandon
-Backend: Randy, Farell
-Database: Randy, Farell
+Backend: Randy, Farel
+Database: Randy, Farel
