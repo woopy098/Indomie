@@ -1,8 +1,9 @@
 import Head from "next/head";
+import Image from "next/image";
 
 export default function Home() {
   return (
-    <div>
+    <div className="h-4/5 flex flex-col justify-center items-center">
       <Head>
         <title>Indomie To Do</title>
         <meta
@@ -11,8 +12,18 @@ export default function Home() {
         />
       </Head>
 
-      <main>
-        <h1 className="font-sans text-base">Hello World!</h1>
+      <main className="h-full w-full flex flex-row justify-between items-center px-16">
+        <div className="w-2/5">
+          <h1 className="font-sans text-4xl antialiased font-bold	">
+            Schedule your works like never before!
+          </h1>
+        </div>
+        <Image
+          src="/home.png"
+          alt="Illustration"
+          width="400"
+          height="400"
+        />
       </main>
     </div>
   );
