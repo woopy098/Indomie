@@ -18,12 +18,15 @@ export default function Home() {
             Schedule your works like never before!
           </h1>
         </div>
-        <Image
-          src="/home.png"
-          alt="Illustration"
-          width="400"
-          height="400"
-        />
+        <div className="w-1/2 h-full relative">
+          <Image
+            src="/home.png"
+            alt="Illustration"
+            layout="fill"
+            objectFit="contain"
+            objectPosition={"right"}
+          />
+        </div>
       </main>
     </div>
   );

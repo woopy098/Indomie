@@ -21,6 +21,7 @@ module.exports = {
       "5xl": "5rem",
       "6xl": "6rem",
       "7xl": "8rem",
+      DEFAULT: "1rem",
     },
     colors: {
       blue: "#4B73FF",
@@ -34,8 +35,7 @@ module.exports = {
     borderRadius: {
       none: "0",
       sm: "0.125rem",
-      DEFAULT: "0.25rem",
-      DEFAULT: "4px",
+      DEFAULT: "1rem",
       md: "0.375rem",
       lg: "1rem",
       full: "9999px",
