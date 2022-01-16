@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasks</title>
+</head>
+<body>
+    <body>
+        <h1>Hello Duc!</h1>
+        <h2>Take a look at your task here!</h2>
+        <a href="new/">
+            <button>Add a Task</button>
+        </a>
+        {% for task in tasks %}
+            <h3>{{ task.name }}</h3>
+            <h4>{{ task.description }}</h4>
+            <h4>{{ task.due_date }}</h4>
+            <h4>{{ task.time }} {{ task.am_pm }}</h4>
+            <a href="{% url 'task-update' task.id %}"><button>Edit</button></a>
+            <a href="{% url 'task-delete' task.id %}"><button>Delete</button></a>
+        {% endfor %}
+    </body>
+</body>
+</html>
